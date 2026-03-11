@@ -186,6 +186,9 @@
     "check:docs-links": "node scripts/check-doc-links.js",
     "benchmark:lighthouse": "node scripts/benchmark-lighthouse.js",
     "starter:build-profile": "node scripts/build-starter-profile.js"
+    "test": "npm run lint && npm run scan",
+    "scan": "gscan .",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",

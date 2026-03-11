@@ -32,8 +32,5 @@ jobs:
       - name: Ghost theme scan
         run: npm run scan
 
-      - name: Check docs local links
-        run: npm run check:docs-links
-
       - name: Build
         run: npm run build

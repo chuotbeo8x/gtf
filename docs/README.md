@@ -106,9 +106,6 @@
 - [Đề xuất cải tiến (Vietnamese)](./improvement-plan-vi.md)
 - [Development Quick Start](./development-quick-start.md)
 - [Release Checklist](./release-checklist.md)
-- [Template Naming Conventions](./template-naming-conventions.md)
-- [Create Theme From Starter Profile](./create-theme-from-starter.md)
-- [Ghost Migration Checklist](./ghost-migration-checklist.md)
 
 ## How to install
 
