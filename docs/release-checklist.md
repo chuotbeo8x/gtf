@@ -7,6 +7,7 @@ Use this checklist before shipping a new theme release.
 - [ ] `npm run lint`
 - [ ] `npm run scan`
 - [ ] `npm run build`
+- [ ] `npm run check:docs-links`
 
 ## 2) Smoke test templates
 
@@ -22,7 +23,11 @@ Use this checklist before shipping a new theme release.
 - [ ] Icon-only controls have `aria-label`
 - [ ] Dark mode and light mode text contrast is readable
 
-## 4) Packaging
+## 4) Performance benchmark (optional but recommended)
+
+- [ ] `npm run benchmark:lighthouse` (requires reachable Ghost URL and Lighthouse package access)
+
+## 5) Packaging
 
 - [ ] `npm run prod`
 - [ ] Verify zip exists in `dist/`
