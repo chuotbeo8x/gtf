@@ -173,6 +173,9 @@ const simplySetup = () => {
     })
 
     document.addEventListener('click', closeDropdowns)
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeDropdowns()
+    })
   }
 
   dropDownMenuToggle()

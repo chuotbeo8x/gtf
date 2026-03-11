@@ -12,11 +12,11 @@
     {{!-- Social media --}}
     <div class="social-media px-4">
         {{#if @site.facebook}}
-            <a href="{{facebook_url}}" target="_blank" rel="noopener noreferrer">{{> "amp/icon-facebook"}}</a>
+            <a href="{{facebook_url}}" target="_blank" rel="noopener noreferrer" aria-label="Facebook">{{> "amp/icon-facebook"}}</a>
         {{/if}}
 
         {{#if @site.twitter}}
-            <a href="{{twitter_url}}" target="_blank" rel="noopener noreferrer">{{> "amp/icon-twitter"}}</a>
+            <a href="{{twitter_url}}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">{{> "amp/icon-twitter"}}</a>
         {{/if}}
 
         {{!-- Instagram --}}
