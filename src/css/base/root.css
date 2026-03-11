@@ -6,6 +6,10 @@
   --color-primary: var(--ghost-accent-color);
   --blank: #fff;
 
+  /* Ghost typography */
+  --gh-font-heading: PT Serif;
+  --gh-font-body: Inter;
+
   /* Global Color */
   --bg-base: #fff;
   --text-base: $primary-text-color;

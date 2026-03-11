@@ -28,10 +28,10 @@
 
         <div class="header-right flex-none flex justify-end items-center">
             {{!-- Light and Dark Mode --}}
-            <a role="button" class="js-dark-mode button is-white items-center mr-2" aria-label="Dark and Light Mode">
+            <button type="button" class="js-dark-mode button is-white items-center mr-2" aria-label="Dark and Light Mode">
                 <svg class="icon icon--moon m-0" style="margin-right:calc(-0.5em - 1px)"><use xlink:href="#icon-moon"></use></svg>
                 <svg class="icon icon--sunny m-0 hidden" style="margin-left:calc(-0.5em - 1px)"><use xlink:href="#icon-sunny"></use></svg>
-            </a>
+            </button>
 
             {{!-- Toggle Searcg --}}
             <a href="#/search"
@@ -51,7 +51,7 @@
             {{#if @site.members_enabled}}{{> "layout/account-menu"}}{{/if}}
 
             {{!-- Toggle Menu --}}
-            <a href="javascript:;" role="button" aria-label="Show Navigation Menu" class="js-menu-toggle menu-burger button is-white relative lg:hidden"><span></span><span></span><span></span></a>
+            <button type="button" aria-label="Show Navigation Menu" class="js-menu-toggle menu-burger button is-white relative lg:hidden"><span></span><span></span><span></span></button>
         </div>
     </div>
 </header>

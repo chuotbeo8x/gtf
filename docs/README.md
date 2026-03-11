@@ -101,6 +101,15 @@
 - Lazy Loading for images
 - Tracking [Google Tag Manager](./tracking-google-tag-manager.md)
 
+## Planning
+
+- [Đề xuất cải tiến (Vietnamese)](./improvement-plan-vi.md)
+- [Development Quick Start](./development-quick-start.md)
+- [Release Checklist](./release-checklist.md)
+- [Template Naming Conventions](./template-naming-conventions.md)
+- [Create Theme From Starter Profile](./create-theme-from-starter.md)
+- [Ghost Migration Checklist](./ghost-migration-checklist.md)
+
 ## How to install
 
 Installing the Simply theme for Ghost is very easy, first [download](https://github.com/godofredoninja/simply/archive/master.zip) the theme.

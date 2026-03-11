@@ -1,0 +1,32 @@
+# Core theme templates
+default.hbs
+index.hbs
+post.hbs
+page.hbs
+author.hbs
+tag.hbs
+error-404.hbs
+
+# Core partials and layouts
+partials/**
+
+# Members and locale support
+members/**
+locales/**
+
+# Build system and source assets
+gulpfile.js
+tailwind.config.js
+src/**
+
+# Runtime assets (generated after build)
+assets/**
+
+# Project metadata
+package.json
+LICENSE
+README.md
+routes.yaml
+.editorconfig
+.gitignore
+.stylelintrc.json
